@@ -1,95 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deepak's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepak's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <div class="logo">Deepak</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="home">
-        <h1>WELCOME TO WEBSITE </h1>
-        <p>I'm Deepak, a 19 year tech enthusiast.</p>
-    </section>
+  <section id="home" class="section">
+    <h1>Welcome to My Portfolio</h1>
+    <p>I'm Deepak, a tech enthusiast passionate about innovation.</p>
+  </section>
 
+  <section id="about" class="section">
+    <img src="my picture.jpg" alt="Deepak's photo" class="profile-img" />
+    <h2>About Me</h2>
+    <p>I love building innovative solutions in robotics, web development, and more.</p>
+  </section>
 
-    <section id="about">
-        <img src="my picture.jpg" width="300px">
-        <h2>About Me</h2>
-        <p>I love to build innovative solutions in robotics, web development, and more.</p>
-    </section>
+  <section id="Education" class="section">
+    <h2>Education</h2>
+    <p>B.Tech in Electronics and Telecommunication from <strong>GEC Raipur</strong></p>
+  </section>
 
-    <section id="Education">
-        <h2>EDUCATION</h2>
-        <p>Recently got admission in B.tech Electronics and telecommunication at <b>GEC Raipur</b></p>
-    </section>
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Project 1: Dishwasher</h3>
+      <p>Fully automatic dishwasher using electronics and coding. Place utensils, press a button, and they come out clean after 20 minutes.</p>
+      <img src="dishwaher.jpg" alt="Dishwasher" />
+      <a href="https://www.instagram.com/reel/C-u2LbxCPs0/?igsh=c2RhY28wNGw1MDJp" target="_blank">Watch Video</a>
+    </div>
 
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <div> I have worked on many projects. Some of them below..</div>
-        
-        <div class="project1">
-            <h3>Project 1: DISHWASHER </h3>
-            <p>With the integration of programming and electronics. I created a FULLY AUTOMATIC DISHWASHER. Just keep utensils, press a button and here we go. After 20 minutes a shining clean utensils.
-            </p>
-            <img src="dishwaher.jpg" alt="description" style="width: 300px;;"></img>
-            <br>
-            <a href="https://www.instagram.com/reel/C-u2LbxCPs0/?igsh=c2RhY28wNGw1MDJp" style="color:rgb(48, 48, 48)">CLICK HERE FOR VIDEO</a>
-        </div>
+    <div class="project-card">
+      <h3>Project 2: Cat Robot</h3>
+      <p>A small cat robot project built during the lockdown period.</p>
+      <video width="400" autoplay muted loop>
+        <source src="robot cat.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </section>
 
-        <br>
-        <div class="project2">
-            <h3 >Project 2: CAT </h3>
-            <p>Just a cat. I made this in lockdown period.</p>
-            <video width="300" controls loop>
-             <source src="robot cat.mp4" type="video/mp4">
-            </video>
-          </div>
-    </section>
-    
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <h4>Currently building on:</h4>
+    <ul>
+      <li>Python, C</li>
+      <li>Electronics</li>
+      <li>Web Development</li>
+      <li>AI/ML (Coming Soon)</li>
+    </ul>
+  </section>
 
-    <section id="skills">
-        <h2>Skills
-            <h4>Currently i am working on
-        </h4></h2>
-        <ul>
-            <li>PYTHON</li>
-            <li>ELECTRONICS</li>
-            <li>WEB DEVELOPMENT</li>
-            <li>AI/ML (In future)</li>
-        </ul>
-      
-    </section>
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:dg3667610@gmail.com">dg3667610@gmail.com</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/deepakgta_2005?igsh=dDFlMzk0d3k4Z3o1" target="_blank">@deepakgta_2005</a></p>
+  </section>
 
-    <section>
-        <H2>VISION</H2>
-        <p>To automate all the basic task we do in home.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <span>dg3667610@gmail.com</span>
-       <br><a href="https://www.instagram.com/deepakgta_2005?igsh=dDFlMzk0d3k4Z3o1">instagram</a>
-        
-    </section>
-
-<br><br><br>
-    <footer>
-        <p>© 2024 Deepak's Portfolio</p>
-    </footer>
+  <footer>
+    <p>© 2024 Deepak's Portfolio</p>
+  </footer>
 </body>
 </html>
